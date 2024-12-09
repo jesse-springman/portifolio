@@ -2,31 +2,91 @@ import styled from "styled-components";
 import { animated } from "@react-spring/web";
 
 
-export const Cont = styled(animated.div)`
+export const Cont = styled.div`
 display: flex;
 flex-direction: column;
 align-items: center;
-gap: 40px;
+justify-content: center;
+height: 120vh;
+background: rgb(6,6,6);
+background: linear-gradient(90deg, rgba(6,6,6,1) 7%, rgba(37,37,152,1) 60%, rgba(40,114,179,1) 92%);
 padding: 20px;
-margin-bottom: 200px;
-border: 5px solid ;
-background-color: rgb(17, 19, 46);
+
+
+@media (max-width: 1300px){
+  
+    width:100%;
+}
+
+@media (max-width: 850px){
+    height: 100vh;
+    
+}
+
+
+@media (max-width: 640px){
+    height:150vh;
+    
+}
+
+`
+
+
+export const ContSobre = styled(animated.div)`
+width: 70vw;
+padding: 60px;
+border-radius: 20px;
+border: 3px solid;
+background: rgba(0, 0, 0, 0.7);
+box-shadow: 1px 1px 14px 1px #fff;
+
+@media (max-width: 1300px){
+    padding: 20px;
+}
+
+
+@media (max-width: 640px){
+    
+}
+
 `
 
 export const H2 = styled.h2`
-font-size: 40px;
+font-size: 49px;
 font-weight: 700;
+margin-bottom: 50px;
+text-align: center;
+
+@media(max-width:1100px){
+    font-size: 39px;
+    margin-bottom: 20px;
+ }
+
+ @media(max-width:850px){
+    font-size: 24px;
+ }
+
 `
 
-export const ContTest1 = styled.div`
-
-`
 
 
 export const P =  styled.div`
  /* display: ${props => props.emtela === true ? 'block' : 'none'};   */
 font-family: 'Segoe UI', Tahoma, sans-serif;
-font-size: 22px;
+font-size: 24px;
 text-align: justify;
- width: 1200px;
+
+width: 100%;
+ /* width: 1200px; */
+
+
+ @media(max-width:1100px){
+    font-size: 19px;
+ }
+
+ @media (max-width: 850px){
+    font-size: 17px;
+    
+}
+
 `

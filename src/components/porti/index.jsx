@@ -1,31 +1,32 @@
-// import { useRef } from "react";
+//import { ScrollProvider } from "../../content";
 import { Main } from "../secaoMain";
 import { HeaderAll } from "../header";
 import { ExibicaoProje } from "../secao-projetos";
+import { SoftSkills } from "../softSkills";
 import { SobreMim } from "../sobreMim";
 import { BoxEmail } from "../boxEmail";
 import { Footer } from "../footer";
 
 
-export const Portifolio = () =>{
+export const Portifolio = () => {
 
 
-    // const refSobreMim = useRef(null);
 
-
-    // const exibirContato = () =>{
-    //     refSobreMim.current.scrollIntoView({ behavior: 'smooth'});
-    // };
-
-
-    return(
+    return (
         <>
             <HeaderAll  />
-            <Main/>
-            <ExibicaoProje/>
+            <Main  />
+            <ExibicaoProje  />
+            <SoftSkills/>
             <SobreMim  />
-            <BoxEmail/>
-            <Footer/>
+            <BoxEmail  />
+            <Footer  />
         </>
+
+
+
+
     )
+
+    
 }

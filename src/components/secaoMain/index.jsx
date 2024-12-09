@@ -1,20 +1,14 @@
-import { ContMain, ContBg, BollBg1, BollBg3, BollBg4, ContIntro, Nome, ImgPerfil, UlRedesSocias, LiRedesSocias, LinkRedes, ContApresentacao, Describe } from "./styleMain";
+import { ContMain, Div, ContBg, BollBg1, BollBg3, BollBg4, ContIntro, Nome, ImgPerfil, UlRedesSocias, LiRedesSocias, LinkRedes, ContApresentacao, Describe } from "./styleMain";
 import ftPerfil from '../../assets/perfil.jpg'
-import { useRef, useEffect } from "react";
+//import { useRef, useEffect } from "react";
+
+
 
 export const Main = () => {
 
-    const videoRef = useRef(null);
-
-
-    useEffect(() => {
-        if (videoRef.current) {
-            videoRef.current.playbackRate = 0.5;
-        }
-    }, [])
 
     return (
-        <ContMain>
+        <ContMain id="refSoft">
 
             <ContBg>
                 <BollBg1></BollBg1>
@@ -24,21 +18,15 @@ export const Main = () => {
 
 
 
-   
-                <ContIntro>
+
+            <ContIntro>
+
+                <Div>
+
                     <Nome>Jessé Springman</Nome>
 
                     <ImgPerfil src={ftPerfil} />
 
-                    <ContApresentacao>
-
-                        <Describe>
-                            Sou desenvolvedor Front-end estudando back-end para ser um Full Stack,
-                            minhas especialidades são JavaScript, React, HTML e CSS. Venho estudando
-                            e consolidadando conhecimentos nessas outras tecnologias : TypeScript, Node.JS, Express, SQL, Git e GitHub.
-                        </Describe>
-
-                    </ContApresentacao>
 
                     <UlRedesSocias>
 
@@ -79,13 +67,30 @@ export const Main = () => {
 
                     </UlRedesSocias>
 
-                </ContIntro>
+
+                </Div>
+
+
+
+                <ContApresentacao>
+
+                    <Describe>
+                        Sou desenvolvedor Front-end estudando back-end para ser um Full Stack,
+                        minhas especialidades são JavaScript, React, HTML e CSS. Venho estudando
+                        e consolidadando conhecimentos nessas outras tecnologias : TypeScript, Node.JS, Express, SQL, Git e GitHub.
+                    </Describe>
+
+                </ContApresentacao>
+
+
+
+            </ContIntro>
 
 
 
 
 
-           
+
 
 
         </ContMain>
@@ -93,4 +98,4 @@ export const Main = () => {
 
 
     )
-}
+};

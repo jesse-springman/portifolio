@@ -5,14 +5,15 @@ const variaveis = {
     rose:  'hsl(300, 69%, 71%)'
 }
 
-export const Header = styled.header`
-     height: 100px;
-    padding: 20px;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    background-color: rgb(17, 19, 46);
-`
+// export const Header = styled.header`
+//      height: 100px;
+//     padding: 20px;
+//     align-items: center;
+//     display: flex;
+//     justify-content: space-between;
+//     background-color: rgb(17, 19, 46);
+//     z-index: 2;
+// `
 
 export const Logo = styled.a`
     display: flex;
@@ -43,7 +44,9 @@ export const H3 = styled.h3`
 
 export const UlHeader = styled.ul`
     display: flex;
+    justify-content: flex-end;
     gap: 20px;
+    background-color: rgb(17, 19, 46);
 `
 
 export const LiHeader = styled.li`

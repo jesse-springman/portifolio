@@ -1,10 +1,14 @@
 import styled from "styled-components";
 
 export const ContProjet = styled.section`
-  
-    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 440px;
     background-color: rgb(17, 19, 46);
- 
+      background-attachment: fixed;
+
 `
 
 export const H2projet = styled.h2`
@@ -20,27 +24,57 @@ export const H2projet = styled.h2`
      background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(16,23,139,1) 50%, rgba(2,195,156,1) 100%);
      z-index: 1;
    
+
+     @media(max-width:687px){
+       margin-top: 200px;
+        
+    } 
  
 `
 
 export const UlProjet = styled.ul`
     margin-top: 170px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 50px;
- 
+    grid-template-columns: repeat(3, 1fr);
+   grid-gap: 70px;
+   
+
+    @media (max-width: 1300px){
+        
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media(max-width:687px){
+        grid-template-columns: 1fr;
+        
+    } 
+
 `
 
 export const LiProject = styled.li`
 
-     max-width: 550px; 
-   max-height: 700px;
+    width: 450px; 
+   height: 700px;
    object-fit: cover;
    padding-bottom: 20px;
    cursor: pointer;
    position: relative;
    margin-bottom: 300px;
+   
 
+
+   @media (max-width: 1000px){
+     
+    width: 400px; 
+}
+
+
+   @media (max-width: 900px){
+    width: 350px; 
+    }
+
+  
+  
 
    &:nth-last-child(-n+4){
 
@@ -69,6 +103,10 @@ export const ImgProjet =  styled.img`
 
 
 export const DivImg = styled.div`
+
+   display: flex;
+   flex-direction: column;
+   align-items:center;
    position: absolute;
    top: 0;
    padding: 10px;
@@ -92,50 +130,45 @@ export const DivImg = styled.div`
 
 
 export const H3Projet = styled.h3`
-    margin-bottom: 20px;
-    padding: 5px;
-    height: 30px;
-    color: aliceblue;
-  
-    &:hover{
-       
-    }
+  margin-bottom: 30px;
+  text-align: center;
+   font-size: 27px;
+
+
 `
 
 
 export const H4Projet = styled.h4`
 
-   font-size: 22px;
+   font-size: 35px;
    font-family: "Kanit", sans-serif;
-   color: aliceblue;
- 
+   color: #48d8eb;
 
-   &:hover{
+   @media(max-width:900px){
+    font-size: 25px;   
+    } 
+`
+
+
+export const Descricao = styled.div`
+font-size: 25px;
+
+@media(max-width:900px){
+    font-size: 20px;
+        
+    } 
+
+`
+
     
-    }
-
-`
-
-
-export const Descricao = styled.p`
-  color: aliceblue;
-
-
-    &:hover{
-      
-    }
-
-`
 
 
 
 export const H3Nome = styled.h3`
-    width: 200px;
-    margin-top: 600px;
+   
+    margin-top: 490px;
     border-bottom: 2px solid aliceblue;
-    color: aliceblue;
-    opacity: 1;
-
+   opacity: 1;
 `
 
 

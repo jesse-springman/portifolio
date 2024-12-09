@@ -9,7 +9,7 @@ export const Footer = () => {
 
 
     return (
-        <ContFooter>
+        <ContFooter  id="refCont">
 
             <UlBolls>
 
@@ -34,18 +34,7 @@ export const Footer = () => {
 
                 <ListRedes>
 
-                    {/* <LiGit>
-
-                        <Link >
-
-
-                            <H3>Email : jessebarbosa45@gmail.com</H3>
-
-
-                        </Link>
-                    </LiGit>
- */}
-
+  
 
                     <LiGit>
 

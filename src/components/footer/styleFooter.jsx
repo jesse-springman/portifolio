@@ -26,7 +26,7 @@ export const ListRedes = styled.ul`
     width: 100vw;
     display: flex;
     justify-content: space-between;
-   
+  
 
 `
 
@@ -48,14 +48,14 @@ export const LiBoll = styled(animated.div)`
 export const ContContatos = styled.nav`
        display: flex;
        color: aliceblue;
+       padding-bottom: 100px;
 `
 
 export const IconRedeSocial = styled.i`
        display: flex;
        align-items: center;
        color: aliceblue;
-      font-size: 30px;
-     
+      font-size: 50px;
 
       &:hover{
        color: aqua;
@@ -69,9 +69,10 @@ export const IconRedeSocial = styled.i`
 `
 
 export const H3 = styled.h3`
+       
        color: aliceblue;
        margin-bottom: 3px;
-       font-size: 20px;
+       font-size: 30px;
        &:hover{
        color: aqua;
      }
@@ -79,6 +80,7 @@ export const H3 = styled.h3`
 `
 
 export const Fone = styled.span`
+   font-size: 30px;
 color: aliceblue;
 font-weight: 800;
 font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;

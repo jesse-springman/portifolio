@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const SecForm = styled.section`
 
-
+padding-top: 200px;
 background-color: rgb(17, 19, 46);
  
 
