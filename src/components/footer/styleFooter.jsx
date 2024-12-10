@@ -16,7 +16,6 @@ overflow: hidden;
 
 export const UlBolls = styled.div`
        
-    
        max-width: 100%;
        position: relative;
      
@@ -48,14 +47,14 @@ export const LiBoll = styled(animated.div)`
 export const ContContatos = styled.nav`
        display: flex;
        color: aliceblue;
-       padding-bottom: 100px;
+       z-index: 1;
 `
 
 export const IconRedeSocial = styled.i`
        display: flex;
        align-items: center;
        color: aliceblue;
-      font-size: 50px;
+      font-size: 30px;
 
       &:hover{
        color: aqua;
@@ -66,21 +65,28 @@ export const IconRedeSocial = styled.i`
        padding-right: 30px;
 } 
 
+
+
+
 `
 
 export const H3 = styled.h3`
        
        color: aliceblue;
        margin-bottom: 3px;
-       font-size: 30px;
+       font-size: 25px;
        &:hover{
-       color: aqua;
+       color: aqua; 
+     }
+
+     @media (max-width:800px){
+       font-size:18px;
      }
        
 `
 
 export const Fone = styled.span`
-   font-size: 30px;
+   font-size: 23px;
 color: aliceblue;
 font-weight: 800;
 font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;

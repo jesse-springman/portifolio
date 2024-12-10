@@ -54,7 +54,7 @@ export const Footer = () => {
                         <IconRedeSocial>
 
 
-                            <H3>Redes Sociais :</H3>
+                            <H3>Redes Sociais</H3>
                            
                             
 

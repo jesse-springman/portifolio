@@ -5,16 +5,6 @@ const variaveis = {
     rose:  'hsl(300, 69%, 71%)'
 }
 
-// export const Header = styled.header`
-//      height: 100px;
-//     padding: 20px;
-//     align-items: center;
-//     display: flex;
-//     justify-content: space-between;
-//     background-color: rgb(17, 19, 46);
-//     z-index: 2;
-// `
-
 export const Logo = styled.a`
     display: flex;
     gap: 20px;
@@ -47,6 +37,11 @@ export const UlHeader = styled.ul`
     justify-content: flex-end;
     gap: 20px;
     background-color: rgb(17, 19, 46);
+
+    @media(max-width:1000px){
+        justify-content: center;
+        gap: 5px;
+    }
 `
 
 export const LiHeader = styled.li`
@@ -61,4 +56,10 @@ export const LiHeader = styled.li`
     transition: .3s;
     color: #fff;
 }
+
+
+@media (max-width:1000px){
+        font-size: 14px;
+    }
+
 `

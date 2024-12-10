@@ -26,8 +26,7 @@ export const BoxEmail = () => {
                     <Label htmlFor="mensagem">Mensagem :</Label>
                     <Input style={{ height: '100px' }} name="mensagem" placeholder="Digite sua menssagem" />
 
-                    {/* <Texto name="mensagem"  placeholder="Digite sua menssagem"  /> */}
-
+                  
 
                     <BtnSubmet type="submit" >Enviar</BtnSubmet>
 

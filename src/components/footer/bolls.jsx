@@ -12,7 +12,7 @@ export const ListBolls = () => {
   const randomPosition = Math.random()* 100;
   const randomT = Math.random()* 2;
   const randomF = Math.random()* 5;
-  const randomSize = Math.random()* 120;
+  const randomSize = Math.random()* 80;
 
   const springs = useSpring({
     from: { transform:  `translateY(${randomYstart}px) scale(0) ` },

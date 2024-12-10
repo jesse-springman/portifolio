@@ -2,9 +2,6 @@ import  { styled, keyframes } from 'styled-components'
 
 export const ContBg = styled.div`
  position: absolute;
-
-
-
 `
 
 const bollUm = keyframes `
@@ -16,6 +13,14 @@ const bollUm = keyframes `
     100%{ left: 500px; top: 400px;}    
 `
 
+const bollOneresponse = keyframes `
+   
+    0%{ left: 0px; top: 0px;}
+    25%{ left: 150px; top: 200px;}
+    50%{ left: 100px; top: 400px;}
+    75%{ left: 250px; top: 500px;}
+    100%{ left: 200px; top: 400px;}    
+`
 export const BollBg1 = styled.div`
     width: 400px;
     height: 400px;
@@ -34,7 +39,7 @@ export const BollBg1 = styled.div`
     }
 
     @media(max-width:687px){
-      
+        animation: ${bollOneresponse} 10s infinite alternate-reverse;
     }    
 
 `
@@ -58,6 +63,14 @@ const bollTwoResponse = keyframes `
     100%{  left: 450px; top: -500px;}    
 `
 
+const bollTwoResponse2 = keyframes `
+   
+    0%{ left: 200px; top:-300px;}
+    25%{ left: 100px; top: -280px; }
+    50%{ left: 150px; top: -350px; }
+    75%{  left: 100px; top: -320px;}
+    100%{  left: 150px; top: -200px;}    
+`
 
 
 export const BollBg3 = styled.div`
@@ -75,6 +88,12 @@ export const BollBg3 = styled.div`
     width: 250px;
     height: 250px;
     border-radius: 100px;
+    }
+
+    @media (max-width: 600px){
+        width: 250px;
+        height: 250px;
+        animation: ${bollTwoResponse2} 10s infinite alternate-reverse;    
     }
 
 
@@ -99,6 +118,15 @@ const bollThereeResponse = keyframes `
     100%{   right: -600px; top: -120px;}     
 `
 
+const bollThereeResponse2 = keyframes `
+   
+    0%{  right: -550px; top:50px; ;}
+    25%{  right: -450px; top: 60px; }
+    50%{  right: -380px; top: 80px; }
+    75%{   right: -350px; top: -90px;}
+    100%{   right: -300px; top: -100px;}     
+`
+
 
 export const BollBg4 = styled.div`
     width: 300px;
@@ -115,6 +143,11 @@ export const BollBg4 = styled.div`
     width: 250px;
     height: 250px;
     border-radius: 100px;
+    }
+
+
+    @media (max-width: 600px){
+        animation: ${bollThereeResponse2} 10s infinite alternate-reverse;    
     }
 
 `
@@ -190,7 +223,8 @@ export const UlRedesSocias = styled.ul`
 
 export const LiRedesSocias = styled.li`
 :hover{
-    color: #000000;
+    
+    color:  #50b9ce;
 }
 `
 
