@@ -1,15 +1,16 @@
-import { Sectoin, H2Comuni, H2Auto, H2Aprende, H2Pensa, Lista, Li, ContComunica, ContAutoData, ContAprendendo, ContPensamento, P, H1 } from "./styleSoft"
+import { Sectoin, H2Comuni, H2Auto, Span, H2Tarefas, H2Aprende, H2Pensa, Lista, Li, ContComunica, ContTarefas, ContAutoData, ContAprendendo, ContPensamento, P, H1 } from "./styleSoft"
 
 
 
 export const SoftSkills = () => {
+
     return (
-        <Sectoin>
+        <Sectoin id="refSkills" >
 
 
             <H1>Soft Skills</H1>
 
-            <Lista id="refSoft" >
+            <Lista>
                 <Li>
                     <ContComunica>
                         <H2Comuni>COMUNICAÇÃO</H2Comuni>
@@ -73,6 +74,28 @@ export const SoftSkills = () => {
 
                     </ContPensamento>
                 </Li>
+
+                
+                <Li>
+
+                    <ContTarefas>
+
+                        <H2Tarefas>Gerenciamento de Tarefas</H2Tarefas>
+
+                        <P>
+                            Gestão é algo fundamental, gosto criar uma estrutura de tarefas para me guiar. Pegar algo complexo a ser realizado e dividir em pequenas tarefas
+                             para ir avançando mesmo aos poucos.
+                            Eu utilizo os recursos do <Span>GitHub</Span> para estruturar minhas tarefas, <Span>Milestones, Issues, task</Span>, são execelentes ferramentas que auxiliam
+                            o gerenciamento de tempo e recurso de maneira eficaz
+                        </P>
+
+                    </ContTarefas>
+                </Li>
+
+
+
+
+
             </Lista>
         </Sectoin>
 

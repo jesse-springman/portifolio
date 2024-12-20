@@ -14,6 +14,9 @@ export const HeaderAll = () => {
 
         const secao = document.getElementById(teste);
 
+
+        
+
         if(secao){
             secao.scrollIntoView({behavior:'smooth'});
         }
@@ -35,7 +38,7 @@ export const HeaderAll = () => {
 
             <LiHeader onClick={() => scrollSecao ('refProjeto')} >Projetos</LiHeader>
 
-            <LiHeader onClick={() => scrollSecao('refSoft')} >Soft-Skills</LiHeader>
+            <LiHeader onClick={() => scrollSecao('refSkills')} >Soft-Skills</LiHeader>
 
             <LiHeader onClick={() => scrollSecao('refCont')} >Contato</LiHeader>
 

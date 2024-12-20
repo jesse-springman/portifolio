@@ -37,7 +37,6 @@ export const UlHeader = styled.ul`
     justify-content: flex-end;
     gap: 20px;
     background-color: rgb(17, 19, 46);
-
     @media(max-width:1000px){
         justify-content: center;
         gap: 5px;

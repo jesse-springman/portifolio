@@ -25,7 +25,12 @@ export const ListRedes = styled.ul`
     width: 100vw;
     display: flex;
     justify-content: space-between;
-  
+      
+    @media(max-width: 600px){
+       flex-direction: column;
+       align-items: center;
+       gap: 15px;
+    }
 
 `
 
@@ -93,23 +98,12 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
 `
 
 export const LiGit = styled.li`
-    
-    
-
-
-
-    
-       
 `
 
 
 export const  DivRedes = styled.li`
-    
 display: flex;
-gap: 15px;
-
-    
-       
+gap: 15px;   
 `
 
 
@@ -117,8 +111,4 @@ export const Link = styled.a`
      display: flex;
      align-items: center;
      gap: 10px;
-    
-   
-    
-
 `

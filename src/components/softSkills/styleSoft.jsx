@@ -21,13 +21,17 @@ padding: 20px;
 
 export const H1 = styled.h1`
    text-align: center;
-  color: aqua;
-font-size: 45px;
+  color: #1dbbeb;
+font-size: 75px;
 
  @media(max-width: 1700px){
-  font-size: 30px; 
+  font-size: 60px; 
   margin-bottom: 100px;
 }
+`
+
+export const Span = styled.span`
+color: orange;
 `
 
 
@@ -36,7 +40,7 @@ display: flex;
 height: 900px;
 align-items: center;
 justify-content: center;
-gap: 25px;
+gap: 35px;
 
 
 @media(max-width: 1500px){
@@ -69,16 +73,27 @@ li:nth-child(3){
   box-shadow: 1px 1px 10px 1px #0425fe;
 } 
 
+
+
+
+li:nth-child(5){
+  border: solid 2px #eb841d;
+  box-shadow: 1px 1px 10px 1px #eb841d;
+} 
+
+
+
 `
+
 
 
 
 export const Li = styled.li`
 
-height: 600px;
-width: 400px;
+height: 550px;
+width: 300px;
 border-radius: 15px;
-padding: 20px;
+padding: 13px;
 display: flex;
 background: rgba(0, 0, 0, 0.7);
 align-items: center;
@@ -86,7 +101,7 @@ border: solid 2px blueviolet;
 box-shadow: 1px 1px 10px 1px blueviolet;
 
  @media(max-width: 1500px){
-  height: 400px;
+  height: 480px;
 } 
 
 `
@@ -96,8 +111,12 @@ export const ContComunica = styled.div`
 width: 100%;
 `
 
+
+export const ContTarefas = styled.div`
+width: 100%;
+`
 export const P = styled.p`
-font-size: 25px;
+font-size: 20px;
 font-family: 'Segoe UI', Tahoma, sans-serif;
 
 @media(max-width: 1500px){
@@ -108,7 +127,7 @@ font-family: 'Segoe UI', Tahoma, sans-serif;
 export const H2Comuni = styled.h2`
 text-align: center;
 margin-bottom: 30px;
-font-size: 38px;    
+font-size: 30px;    
 color: aqua;
 
 @media(max-width: 1500px){
@@ -119,7 +138,7 @@ color: aqua;
 export const H2Auto = styled.h2`
 text-align: center;
 margin-bottom: 30px;
-font-size: 38px;    
+font-size: 30px;    
 color: dodgerblue;
 
 @media(max-width: 1500px){
@@ -130,13 +149,25 @@ color: dodgerblue;
 export const H2Aprende = styled.h2`
 text-align: center;
 margin-bottom: 30px;
-font-size: 38px;    
+font-size: 30px;    
 color: #0425fe;
 
 @media(max-width: 1500px){
   font-size: 28px; 
 }
 `
+
+export const H2Tarefas = styled.h2`
+text-align: center;
+margin-bottom: 20px;
+font-size: 30px;    
+color: #eb841d;
+
+@media(max-width: 1500px){
+  font-size: 25px; 
+}
+`
+
 
 export const H2Pensa = styled.h2`
 text-align: center;

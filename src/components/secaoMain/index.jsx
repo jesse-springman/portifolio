@@ -1,6 +1,5 @@
 import { ContMain, Div, ContBg, BollBg1, BollBg3, BollBg4, ContIntro, Nome, ImgPerfil, UlRedesSocias, LiRedesSocias, LinkRedes, ContApresentacao, Describe } from "./styleMain";
 import ftPerfil from '../../assets/perfil.jpg'
-//import { useRef, useEffect } from "react";
 
 
 
@@ -25,7 +24,11 @@ export const Main = () => {
 
                     <Nome>Jessé Springman</Nome>
 
-                    <ImgPerfil src={ftPerfil} />
+                 
+                        <ImgPerfil href={ftPerfil}  src={ftPerfil} />
+                  
+
+                 
 
 
                     <UlRedesSocias>
