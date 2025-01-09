@@ -10,8 +10,8 @@ export const ListBolls = () => {
   const randomYstart = Math.random()* 0;
   const randomYend = Math.random()* -700;
   const randomPosition = Math.random()* 100;
-  const randomT = Math.random()* 2;
-  const randomF = Math.random()* 5;
+  const randomT = Math.random()* 4;
+  const randomF = Math.random()* 2;
   const randomSize = Math.random()* 80;
 
   const springs = useSpring({

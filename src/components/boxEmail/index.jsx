@@ -12,7 +12,7 @@ export const BoxEmail = () => {
 
                 <H3>Contato</H3>
 
-                <Form target="_blank" class="form-email" action="https://formsubmit.co/597bc9afabfe7827fefa925554ff8621" method="POST" >
+                <Form target="_blank"  action="https://formsubmit.co/597bc9afabfe7827fefa925554ff8621" method="POST" >
 
                     <Label htmlFor="nome">Nome :</Label>
                     <Input type="text" name="nome" placeholder="Digite seu nome" />

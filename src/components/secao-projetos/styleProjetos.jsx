@@ -78,7 +78,7 @@ export const LiProject = styled.li`
 
    &:nth-last-child(-n+4){
 
-        display: ${props=>props.noscreen ? 'none' : 'block'};
+        display: ${props=>props.noscreen === 'true' ? 'none' : 'block'};
     }
 
 `
@@ -118,7 +118,7 @@ export const DivImg = styled.div`
    &:hover{
     opacity: 0.8;
     transition: .3s;
-   color: aquamarine;
+   color: #aab2b0;
     
    }
 
@@ -142,7 +142,7 @@ export const H4Projet = styled.h4`
 
    font-size: 35px;
    font-family: "Kanit", sans-serif;
-   color: #48d8eb;
+   opacity: 1;
 
    @media(max-width:900px){
     font-size: 25px;   

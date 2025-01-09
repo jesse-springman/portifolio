@@ -22,11 +22,5 @@ export const Portifolio = () => {
             <BoxEmail  />
             <Footer  />
         </>
-
-
-
-
     )
-
-    
 }

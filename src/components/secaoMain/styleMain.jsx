@@ -187,6 +187,7 @@ border-radius: 50%;
  max-width:400px;
  height: 450px;  
  box-shadow: 2px 2px 7px 1px #d5d5d5;  
+ z-index: 1;
 
 
  @media(max-width: 900px){

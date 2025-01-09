@@ -36,11 +36,11 @@ export const HeaderAll = () => {
 
             <LiHeader onClick={() => scrollSecao('refSobre')} >Sobre-mim</LiHeader>
 
-            <LiHeader onClick={() => scrollSecao ('refProjeto')} >Projetos</LiHeader>
+            <LiHeader  data-testid="liProjeto" onClick={() => scrollSecao ('refProjeto')} >Projetos</LiHeader>
 
-            <LiHeader onClick={() => scrollSecao('refSkills')} >Soft-Skills</LiHeader>
+            <LiHeader data-testid="liSoft" onClick={() => scrollSecao('refSkills')} >Soft-Skills</LiHeader>
 
-            <LiHeader onClick={() => scrollSecao('refCont')} >Contato</LiHeader>
+            <LiHeader data-testid="liContato" onClick={() => scrollSecao('refCont')} >Contatos</LiHeader>
 
 
         </UlHeader>

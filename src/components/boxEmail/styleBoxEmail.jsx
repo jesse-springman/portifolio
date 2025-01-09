@@ -21,7 +21,7 @@ export const ContForm = styled.div`
    position: relative;
 
    @media(max-width:800px){
-      width: 65%;
+      width: 80%;
    }
 
 `

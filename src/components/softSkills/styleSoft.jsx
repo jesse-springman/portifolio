@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import ft from "../../assets/fundoSoft.jpg"
-
+import ft2 from "../../assets/fundoSoftSkill.jpg"
 
 export const Sectoin = styled.section`
 display: flex ;
@@ -15,6 +15,10 @@ padding: 20px;
 
 @media(max-width: 1000px){
   padding: 50px; 
+}
+
+@media(max-width: 400px){
+  background-image: url(${ft2});
 }
 
 `

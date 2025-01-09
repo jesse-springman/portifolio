@@ -25,6 +25,7 @@ export const ListRedes = styled.ul`
     width: 100vw;
     display: flex;
     justify-content: space-between;
+    z-index: 1;
       
     @media(max-width: 600px){
        flex-direction: column;
@@ -49,15 +50,14 @@ export const LiBoll = styled(animated.div)`
          }
        
 ` 
-export const ContContatos = styled.nav`
-       display: flex;
-       color: aliceblue;
-       z-index: 1;
-`
+// export const ContContatos = styled.ul`
+//        display: flex;
+//        color: aliceblue;
+//        z-index: 1;
+// `
 
 export const IconRedeSocial = styled.i`
-       display: flex;
-       align-items: center;
+       display: block;
        color: aliceblue;
       font-size: 30px;
 
@@ -65,14 +65,18 @@ export const IconRedeSocial = styled.i`
        color: aqua;
      }
       
-     &:last-child{
-       display: block;
-       padding-right: 30px;
-} 
 
 
 
 
+`
+
+
+export const ContRedes = styled.div`
+display: flex;
+gap: 30px;
+justify-content: center;
+ 
 `
 
 export const H3 = styled.h3`
@@ -98,6 +102,7 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
 `
 
 export const LiGit = styled.li`
+
 `
 
 

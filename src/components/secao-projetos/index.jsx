@@ -1,4 +1,4 @@
-import { ContProjet, Descricao, H2projet, UlProjet, LiProject, ImgProjet, H3Projet, H4Projet,DivImg, ContBtn, BtnMaisProj } from "./styleProjetos"
+import { ContProjet, Descricao, H2projet, UlProjet, LiProject, ImgProjet, H3Projet, H4Projet, DivImg, ContBtn, BtnMaisProj } from "./styleProjetos"
 import { useState } from "react";
 import { dadosProjetos } from "../../data/dados";
 //import { ContInfo } from "./infoProject";
@@ -39,7 +39,7 @@ export const ExibicaoProje = () => {
                         dadosProjetos.map((project, index) => {
 
                             return (
-                                <LiProject noscreen={oculta} key={index}>
+                                <LiProject noscreen={oculta.toString()} key={index}>
 
 
 
@@ -54,29 +54,28 @@ export const ExibicaoProje = () => {
                                         <H3Projet>{project.titulo}</H3Projet>
 
                                         <H4Projet>Tecnologias utilizadas</H4Projet>
-{/* 
-                                        <ContInfo/> */}
+                                   
 
                                         <Descricao>
 
-                                        <ul>
+                                            <ul>
 
-                                     {
-                                       
-                                   
-                                        
-                                     project.tecnologias.map((tecnologia,index)=>{
+                                                {
 
-                                        return(
-                                            <li key={index}>
-                                                <p>{tecnologia}</p>
-                                            </li>
-                                        )
-                                     })
-                                     
-                                     }
 
-                                     </ul>
+
+                                                    project.tecnologias.map((tecnologia, index) => {
+
+                                                        return (
+                                                            <li key={index}>
+                                                                <p>{tecnologia}</p>
+                                                            </li>
+                                                        )
+                                                    })
+
+                                                }
+
+                                            </ul>
                                         </Descricao>
 
                                         {/* <H3Nome>{project.titulo}</H3Nome>  */}
