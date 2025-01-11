@@ -36,25 +36,21 @@ export const UlProjet = styled.ul`
     margin-top: 170px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-   grid-gap: 70px;
+   grid-gap: 30px;
+  
    
 
     @media (max-width: 1300px){
-        
         grid-template-columns: repeat(2, 1fr);
     }
 
-    @media(max-width:687px){
-        grid-template-columns: 1fr;
-        
-    } 
 
 `
 
 export const LiProject = styled.li`
 
-    width: 450px; 
-   height: 700px;
+    width: 350px; 
+   height: 600px;
    object-fit: cover;
    padding-bottom: 20px;
    cursor: pointer;
@@ -74,24 +70,37 @@ export const LiProject = styled.li`
     }
 
   
-  
+      @media(max-width:699px){
+        width: 270px; 
+        height: 500px;
+       
+        
+    }  
+
+    @media(max-width:400px){
+        width: 170px; 
+        height: 330px;
+        
+    }  
 
    &:nth-last-child(-n+4){
 
-        display: ${props=>props.noscreen === 'true' ? 'none' : 'block'};
+        display: ${props => props.noscreen === 'true' ? 'none' : 'block'};
     }
 
 `
 
 
 
-export const ImgProjet =  styled.img`
+export const ImgProjet = styled.img`
     width: 100%; 
     height: 90%;
     border: #000000 2px solid;
     border-radius: 15px;
     box-shadow: 2px 2px 7px 4px #030303;
   
+
+
   
 
     &:hover{
@@ -134,6 +143,9 @@ export const H3Projet = styled.h3`
   text-align: center;
    font-size: 27px;
 
+   @media(max-width:687px){
+    font-size: 20px;
+}  
 
 `
 
@@ -147,6 +159,11 @@ export const H4Projet = styled.h4`
    @media(max-width:900px){
     font-size: 25px;   
     } 
+
+    @media(max-width:687px){
+    font-size: 20px;
+}  
+
 `
 
 
@@ -154,13 +171,21 @@ export const Descricao = styled.div`
 font-size: 25px;
 
 @media(max-width:900px){
-    font-size: 20px;
-        
+    font-size: 20px; 
     } 
+
+    @media(max-width:687px){
+    font-size: 17px;
+}  
+
+@media(max-width:687px){
+    font-size: 14px;
+}  
+
 
 `
 
-    
+
 
 
 
@@ -183,7 +208,7 @@ export const ContBtn = styled.div`
 
 
 
-export const BtnMaisProj = styled. button`
+export const BtnMaisProj = styled.button`
    
     margin-bottom: 50px;
     width: 150px;
@@ -209,7 +234,7 @@ export const BtnMaisProj = styled. button`
 `
 
 
-export const BtnMenosProj = styled. button`
+export const BtnMenosProj = styled.button`
    display: none;
     margin-bottom: 50px;
     width: 150px;

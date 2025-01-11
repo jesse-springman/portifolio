@@ -7,19 +7,21 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-height: 120vh;
+height: 100vh;
 background: rgb(6,6,6);
 background: linear-gradient(90deg, rgba(6,6,6,1) 7%, rgba(37,37,152,1) 60%, rgba(40,114,179,1) 92%);
-padding: 20px;
+padding: 10px;
 
 
 @media (max-width: 1300px){
     width:100%;
     height: 100%;
+
 }
 
 @media (max-width: 850px){
     height: 100vh; 
+  
 }
 
 
@@ -32,17 +34,11 @@ padding: 20px;
 
 export const ContSobre = styled(animated.div)`
 width: 70vw;
-padding: 60px;
+padding: 20px;
 border-radius: 20px;
 border: 3px solid;
 background: rgba(0, 0, 0, 0.7);
 box-shadow: 1px 1px 14px 1px #fff;
-
-@media (max-width: 1300px){
-    padding: 20px;
-}
-
-
 
 
 @media(max-width:400px){
@@ -51,7 +47,7 @@ box-shadow: 1px 1px 14px 1px #fff;
 `
 
 export const H2 = styled.h2`
-font-size: 49px;
+font-size: 39px;
 color: #4362ca;
 font-weight: 700;
 margin-bottom: 50px;

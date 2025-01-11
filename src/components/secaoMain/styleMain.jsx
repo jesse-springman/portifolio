@@ -2,6 +2,7 @@ import { styled, keyframes } from 'styled-components'
 
 export const ContBg = styled.div`
  position: absolute;
+
 `
 
 const bollUm = keyframes`
@@ -15,9 +16,9 @@ const bollUm = keyframes`
 
 const bollOneresponse = keyframes`
    
-    0%{ left: 0px; top: 0px;}
-    25%{ left: 150px; top: 500px;}
-    50%{ left: 100px; top: 600px;}
+    0%{ left: 210px; top: 0px;}
+    25%{ left: 200px; top: 500px;}
+    50%{ left: 230px; top: 600px;}
     75%{ left: 250px; top: 700px;}
     100%{ left: 200px; top: 800px;}    
 `
@@ -29,7 +30,7 @@ export const BollBg1 = styled.div`
     animation: ${bollUm} 10s infinite alternate-reverse;
     opacity: .5;
     filter: blur(90px);
-    background-color: rgb(10, 69, 230);
+    background-color: rgb(22, 97, 182);
 
     
 @media(max-width: 1000px){
@@ -39,8 +40,8 @@ export const BollBg1 = styled.div`
     }
 
     @media(max-width:687px){
-     width: 300px;
-     height: 300px;
+     width: 200px;
+     height: 200px;
      border-radius: 600px;
      animation: ${bollOneresponse} 10s infinite alternate-reverse;
     }    
@@ -114,20 +115,20 @@ const bollTheree = keyframes`
 
 const bollThereeResponse = keyframes`
    
-    0%{  right: -850px; top:-80px; ;}
-    25%{  right: -550px; top: -90px; }
-    50%{  right: -680px; top: -100px; }
-    75%{   right: -450px; top: -110px;}
-    100%{   right: -600px; top: -120px;}     
+    0%{  right: -350px; top:-180px; ;}
+    25%{  right: -320px; top: -190px; }
+    50%{  right: -280px; top: -240px; }
+    75%{   right: -250px; top: -110px;}
+    100%{   right: -200px; top: -120px;}     
 `
 
 const bollThereeResponse2 = keyframes`
    
-    0%{  right: -550px; top:50px; ;}
-    25%{  right: -450px; top: 60px; }
-    50%{  right: -380px; top: 80px; }
-    75%{   right: -350px; top: -90px;}
-    100%{   right: -300px; top: -100px;}     
+    0%{  right: 150px; top:50px; ;}
+    25%{  right: 150px; top: 60px; }
+    50%{  right: 280px; top: 80px; }
+    75%{   right: 50px; top: -90px;}
+    100%{   right: 100px; top: -100px;}     
 `
 
 
@@ -157,6 +158,8 @@ export const BollBg4 = styled.div`
 export const ContMain = styled.section`
   background-color: rgb(17, 19, 46);
   height: 100vh;
+ 
+
 `
 
 
