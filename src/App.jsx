@@ -29,7 +29,7 @@ const GlobalStyle = createGlobalStyle`
   font-family: "Orbitron", sans-serif;  
   /* background-color: rgb(17, 19, 46);  */
   color: aliceblue;
-  overflow-x: hidden;
+  
  }
 
 
