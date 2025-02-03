@@ -34,7 +34,9 @@ Um dos conceitos mais importantes nos dias de hoje é entregar um aplicativo que
   <br>
   <br>
   <br>
+  
   ### Bibliotecas
+  
   * Vite<br>
    <img align="center" alt="Vite" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vitejs/vitejs-original.svg"> 
    <strong>Vite</strong> por sua forma de inicializar a construção  com grande rápidez o código.
