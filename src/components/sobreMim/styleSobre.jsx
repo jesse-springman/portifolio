@@ -32,6 +32,13 @@ padding: 10px;
 `
 
 
+
+export const Span = styled.span`
+color: dodgerblue;
+
+`
+
+
 export const ContSobre = styled(animated.div)`
 width: 70vw;
 padding: 20px;

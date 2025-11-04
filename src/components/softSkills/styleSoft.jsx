@@ -120,7 +120,7 @@ export const ContTarefas = styled.div`
 width: 100%;
 `
 export const P = styled.p`
-font-size: 20px;
+font-size: 19px;
 font-family: 'Segoe UI', Tahoma, sans-serif;
 
 @media(max-width: 1500px){
@@ -176,7 +176,7 @@ color: #eb841d;
 export const H2Pensa = styled.h2`
 text-align: center;
 margin-bottom: 30px;
-font-size: 38px;    
+font-size: 32px;    
 color: blueviolet;
 
 @media(max-width: 1500px){
@@ -188,6 +188,23 @@ export const H2 = styled.h2`
 margin-bottom: 30px;
 font-size: 28px;    
 color: aqua;
+`
+
+export const SpanPensa = styled.span`
+color: blueviolet;
+`
+
+export const SpanComuni = styled.span`
+color: aqua;
+`
+
+export const SpanAuto = styled.span`
+color: dodgerblue;
+
+`
+export const SpanAprende = styled.span`
+color: #364ff1;
+
 `
 
 export const ContAutoData = styled.div`

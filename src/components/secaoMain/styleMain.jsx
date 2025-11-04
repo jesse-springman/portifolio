@@ -250,6 +250,13 @@ export const ContApresentacao = styled.div`
 
 `
 
+
+export const Span = styled.span`
+color: dodgerblue;
+
+`
+
+
 export const Describe = styled.p`
 `
 

@@ -13,13 +13,14 @@ export const ContProjet = styled.section`
 
 export const H2projet = styled.h2`
     text-align: center;
-    margin: 0 auto;
+    
     color  :aliceblue ;
     border: 3px solid ;
-    max-width: 200px;
+    width: 1100px;
+    height: 100px;
     padding: 8px;
     border-radius: 15px;
-    font-size: 35px;
+    font-size: 55px;
      background: rgb(0,0,0);
      background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(16,23,139,1) 50%, rgba(2,195,156,1) 100%);
      z-index: 1;
@@ -98,7 +99,7 @@ export const ImgProjet = styled.img`
     border: #000000 2px solid;
     border-radius: 15px;
     box-shadow: 2px 2px 7px 4px #030303;
-  
+    margin-bottom: 20px;
 
 
   
@@ -139,10 +140,13 @@ export const DivImg = styled.div`
 
 
 export const H3Projet = styled.h3`
+  padding:5px;
   margin-bottom: 30px;
   text-align: center;
-   font-size: 27px;
-
+  font-size: 27px;
+  border-radius: 20px;
+ box-shadow: 2px 2px 7px 1px #d5d5d5;  
+background-color: rgb(9, 10, 22); ;
    @media(max-width:687px){
     font-size: 20px;
 }  

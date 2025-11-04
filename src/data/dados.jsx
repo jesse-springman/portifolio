@@ -6,9 +6,38 @@ import projNaruto from '../assets/tela-naruto.png';
 import projXmen from '../assets/tela-xmen.png';
 import pokeFilmes from '../assets/app.png';
 import placeHolde from '../assets/placeholder.png';
-
+import fin from '../assets/fin.png'
 
  export const dadosProjetos = [
+
+
+
+        {
+        projetoImg: fin,
+        linkGitHub: "https://github.com/jesse-springman/clone-tabnews",
+        titulo: "clone-tabnews",
+        tecnologias: [
+
+            "✅Next",
+            "✅PostgreSQL",
+            "✅Docker",
+            "✅node-pg-migrate",
+            "✅Bcypt",
+            "✅Jest",
+            "✅Commitizen",
+            "✅Next-Connect",
+            "✅React",
+             "🔎Ver no GitHub pages"
+
+        ]
+   
+        
+
+    },
+
+
+
+
     
     {
         projetoImg: projPoke,

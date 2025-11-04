@@ -1,4 +1,4 @@
-import { ContMain, Div, ContBg, BollBg1, BollBg3, BollBg4, ContIntro, Nome, ImgPerfil, UlRedesSocias, LiRedesSocias, LinkRedes, ContApresentacao, Describe } from "./styleMain";
+import { ContMain,Span, Div, ContBg, BollBg1, BollBg3, BollBg4, ContIntro, Nome, ImgPerfil, UlRedesSocias, LiRedesSocias, LinkRedes, ContApresentacao, Describe } from "./styleMain";
 import ftPerfil from '../../assets/perfil.jpg'
 
 
@@ -78,9 +78,11 @@ export const Main = () => {
                 <ContApresentacao>
 
                     <Describe>
-                        Sou desenvolvedor Front-end estudando back-end para ser um Full Stack,
-                        minhas especialidades são JavaScript, React, HTML e CSS. Venho estudando
-                        e consolidadando conhecimentos nessas outras tecnologias : TypeScript, Node.JS, Express, SQL, Git e GitHub.
+                    Sou desenvolvedor web,
+                      focado em JavaScript, Node.js e Next.js, com experiência em backend escalável, por meio de arquitetue MVC.<br></br><br></br>
+                      Integração com APIs e bancos de dados PostgreSQL, migrations e versionamento com Git, hospedagem na Vercel.
+                      Apaixonado por IA aplicada a negócios onde estou desenvolvendo um SaaS que usa utiliza IA para sanar um problema do mundo real.<br></br><br></br>
+                      Possuo visão estratégica e foco em resultado, unindo conhecimento técnico a entendimento do negócio para propor soluções que realmente impactam o crescimento da empresa.
                     </Describe>
 
                 </ContApresentacao>

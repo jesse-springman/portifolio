@@ -48,9 +48,7 @@ export const ExibicaoProje = () => {
 
                                     <H3Projet>{project.titulo}</H3Projet>
                                     <DivImg>
-
-
-
+                                        
                                         <H3Projet>{project.titulo}</H3Projet>
 
                                         <H4Projet>Tecnologias utilizadas</H4Projet>
