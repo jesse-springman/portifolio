@@ -93,9 +93,8 @@ li:nth-child(5){
 
 
 export const Li = styled.li`
-
 height: 550px;
-width: 300px;
+width: 330px;
 border-radius: 15px;
 padding: 13px;
 display: flex;
@@ -120,7 +119,7 @@ export const ContTarefas = styled.div`
 width: 100%;
 `
 export const P = styled.p`
-font-size: 19px;
+font-size: 17px;
 font-family: 'Segoe UI', Tahoma, sans-serif;
 
 @media(max-width: 1500px){
@@ -192,6 +191,7 @@ color: aqua;
 
 export const SpanPensa = styled.span`
 color: blueviolet;
+
 `
 
 export const SpanComuni = styled.span`

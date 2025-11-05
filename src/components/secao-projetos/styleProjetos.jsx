@@ -13,22 +13,28 @@ export const ContProjet = styled.section`
 
 export const H2projet = styled.h2`
     text-align: center;
-    
-    color  :aliceblue ;
     border: 3px solid ;
     width: 1100px;
     height: 100px;
     padding: 8px;
     border-radius: 15px;
     font-size: 55px;
-     background: rgb(0,0,0);
-     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(16,23,139,1) 50%, rgba(2,195,156,1) 100%);
-     z-index: 1;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(16,23,139,1) 50%, rgba(2,195,156,1) 100%);
+    z-index: 1;
    
 
+
+    @media(max-width:1000px){
+    margin-top: 500px;
+    width: 700px; 
+    } 
+ 
+
+
      @media(max-width:687px){
-       margin-top: 200px;
-        
+       margin-top: 700px;
+        width: 450px;
     } 
  
 `
