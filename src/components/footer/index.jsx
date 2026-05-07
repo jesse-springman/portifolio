@@ -8,8 +8,8 @@ import {
   IconRedeSocial,
   Link,
   Fone,
-} from "./styleFooter";
-import { ListBolls } from "./bolls";
+} from './styleFooter';
+import { ListBolls } from './bolls';
 
 export const Footer = () => {
   const balls = Array.from({ length: 150 }, (_, index) => index);
@@ -30,7 +30,7 @@ export const Footer = () => {
             title="Enviar mensagem no Whatsapp"
           >
             <H3>
-              Telefone: <Fone>19 992704740</Fone>{" "}
+              Telefone: <Fone>19 992704740</Fone>{' '}
             </H3>
             <IconRedeSocial className="fa-brands fa-whatsapp" />
           </Link>

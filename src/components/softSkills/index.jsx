@@ -1,109 +1,96 @@
-import { Sectoin, H2Comuni, H2Auto, Span, SpanAuto,  SpanAprende, SpanPensa, SpanComuni, H2Tarefas, H2Aprende, H2Pensa, Lista, Li, ContComunica, ContTarefas, ContAutoData, ContAprendendo, ContPensamento, P, H1 } from "./styleSoft"
-
-
+import {
+  Sectoin,
+  H2Comuni,
+  H2Auto,
+  Span,
+  SpanAuto,
+  SpanAprende,
+  SpanPensa,
+  SpanComuni,
+  H2Tarefas,
+  H2Aprende,
+  H2Pensa,
+  Lista,
+  Li,
+  ContComunica,
+  ContTarefas,
+  ContAutoData,
+  ContAprendendo,
+  ContPensamento,
+  P,
+  H1,
+} from './styleSoft';
 
 export const SoftSkills = () => {
+  return (
+    <Sectoin id="refSkills">
+      <H1>Soft Skills</H1>
 
-    return (
-        <Sectoin id="refSkills" >
+      <Lista>
+        <Li>
+          <ContComunica>
+            <H2Comuni>Comunicação</H2Comuni>
+            <P>
+              Desenvolvi uma comunicação clara e objetiva ao longo da minha
+              jornada, facilitando a colaboração em equipe e o alinhamento de
+              expectativas. Valorizo o diálogo como ferramenta essencial para
+              resolver problemas e evoluir soluções de forma eficiente.
+            </P>
+          </ContComunica>
+        </Li>
 
+        <Li>
+          <ContAutoData>
+            <H2Auto>Autodidata</H2Auto>
 
-            <H1>Soft Skills</H1>
+            <P>
+              Além de cursos eu construí minha formação de forma autodidata,
+              mantendo consistência nos estudos e evolução contínua. Busco
+              constantemente novos conhecimentos e aplico na prática,
+              demonstrando disciplina e responsabilidade com meu desenvolvimento
+              profissional.
+            </P>
+          </ContAutoData>
+        </Li>
 
-            <Lista>
-                <Li>
-                    <ContComunica>
-                        <H2Comuni>COMUNICAÇÃO</H2Comuni>
-                        <P>
-                            <SpanComuni>Ao longo da minha jornada desenvolvi  habilidade de uma boa comunicação,</SpanComuni>
-                            tenho ciência que isso é fator essencial para um bom desenvolvimento profissional.
-                            Acredito que a colaboração e diálogo são a melhor forma de vencer os desafios que nós  encontramos.
-                        </P>
-                    </ContComunica>
+        <Li>
+          <ContAprendendo>
+            <H2Aprende>Aprendizado contínuo</H2Aprende>
 
-                </Li>
+            <P>
+              Tenho facilidade em aprender novas tecnologias e me adaptar a
+              diferentes contextos. Encaro desafios como oportunidades de
+              crescimento e estou sempre evoluindo minhas habilidades técnicas e
+              analíticas.
+            </P>
+          </ContAprendendo>
+        </Li>
 
-                <Li>
-                    <ContAutoData>
+        <Li>
+          <ContPensamento>
+            <H2Pensa>Visão de produto</H2Pensa>
 
+            <P>
+              Vou além da implementação técnica, buscando entender o problema, o
+              usuário e o impacto da solução. Desenvolvo pensando em gerar valor
+              real para o negócio e contribuir para o crescimento do produto.
+            </P>
+          </ContPensamento>
+        </Li>
 
-                        <H2Auto>Autodidata</H2Auto>
+        <Li>
+          <ContTarefas>
+            <H2Tarefas>Organização e gestão de tarefas</H2Tarefas>
 
-                        <P>
-                            Há anos que sou Autodidata, no momento não curso o ensino superior, não por falta de interesse, mas por requisitos financeiros.
-                            <SpanAuto>Mas mantenho minha diciplina determinado todos os dias com foco na minha aperfeisoação profissional.</SpanAuto>
-                            Pesquisando, estudando, buscando sempre novos conhecimentos e habilidades.
-                        </P>
-
-                    </ContAutoData>
-
-                </Li>
-
-                <Li>
-
-                    <ContAprendendo>
-
-                        <H2Aprende>Aprendendo a aprender</H2Aprende>
-
-                        <P>
-                            Nessa área  sempre haverá um novo aprendizado a realizar e se tem uma coisa que eu gosto é de aprender coisas novas,
-                            expandir meu conhecimento. <SpanAprende>Então não tenho medo de encarar novos desafios e buscar me aprimorar para isso</SpanAprende> .
-                        </P>
-
-                    </ContAprendendo>
-
-                </Li>
-
-
-                <Li>
-
-                    <ContPensamento>
-
-                        <H2Pensa>Foco em resultados e entrega de valor</H2Pensa>
-
-                        <P>
-                            Tenho uma visão de negócio além da programação,
-                            <SpanPensa> além da programação, eu gosto de pensar no resultado final do produto, entendendo o público,
-                            o problema e as oportunidades de negócio</SpanPensa>  .
-                            Acredito que um bom desenvolvedor também deve construir soluções que geram valor e ajudam a empresa a crescer.
-
-                        </P>
-
-                    </ContPensamento>
-                </Li>
-
-
-                <Li>
-
-                    <ContTarefas>
-
-                        <H2Tarefas>Gerenciamento de Tarefas</H2Tarefas>
-
-                        <P>
-                            Gestão é algo fundamental, gosto criar uma estrutura de tarefas para me guiar. Pegar algo complexo a ser realizado e dividir em pequenas tarefas
-                            para ir avançando mesmo aos poucos.
-                            Eu utilizo os recursos do <Span>GitHub</Span> para estruturar minhas tarefas, <Span>Milestones, Issues, task</Span>, são execelentes ferramentas que auxiliam
-                            o gerenciamento de tempo e recurso de maneira eficaz
-                        </P>
-
-                    </ContTarefas>
-                </Li>
-
-
-
-
-
-            </Lista>
-        </Sectoin>
-
-    )
-
-}
-
-
-
-
-
-
-
-
+            <P>
+              Estruturo demandas complexas em etapas menores, facilitando a
+              execução e garantindo consistência nas entregas. Utilizo
+              ferramentas como GitHub (Issues, Milestones) para organizar
+              tarefas e otimizar o fluxo de desenvolvimento.
+            </P>
+          </ContTarefas>
+        </Li>
+      </Lista>
+    </Sectoin>
+  );
+};

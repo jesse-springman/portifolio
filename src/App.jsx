@@ -1,21 +1,15 @@
-
-import { Portifolio } from './components/porti'
-import { createGlobalStyle } from 'styled-components'
-import './App.css'
+import { Portifolio } from './components/porti';
+import { createGlobalStyle } from 'styled-components';
+import './App.css';
 
 function App() {
-
-
   return (
-   <>
-        <GlobalStyle/>
-        <Portifolio />
-   </>
-    
-   
-  )
+    <>
+      <GlobalStyle />
+      <Portifolio />
+    </>
+  );
 }
-
 
 const GlobalStyle = createGlobalStyle`
  *{
@@ -32,11 +26,6 @@ const GlobalStyle = createGlobalStyle`
   
  }
 
+`;
 
-
- * img{
-    width:100%;
- }
-`
-
-export default App
+export default App;

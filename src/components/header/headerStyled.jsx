@@ -1,4 +1,4 @@
-import  { styled } from 'styled-components'
+import { styled } from 'styled-components';
 
 // const variaveis = {
 //     gray : ' #1f0e89',
@@ -33,37 +33,32 @@ import  { styled } from 'styled-components'
 // `
 
 export const UlHeader = styled.ul`
-    padding-top :20px;
-    display: flex;
-    justify-content: flex-end;
-    gap: 20px;
-    background-color: rgb(17, 19, 46);
-    
+  padding-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  background-color: rgb(17, 19, 46);
 
-    @media(max-width:1000px){
-        justify-content: center;
-        gap: 2px;
-
-    }
-`
+  @media (max-width: 1000px) {
+    justify-content: center;
+    gap: 2px;
+  }
+`;
 
 export const LiHeader = styled.li`
-   padding: 9px;
+  padding: 9px;
 
-
-&:hover{
-    background-color:  #1f0e89;
+  &:hover {
+    background-color: #1f0e89;
     border: aliceblue solid;
     border-radius: 7px;
     cursor: pointer;
     font-weight: 700;
-    transition: .3s;
+    transition: 0.3s;
     color: #fff;
-}
+  }
 
-
-@media (max-width:1000px){
-        font-size: 14px;
-    }
-
-`
+  @media (max-width: 1000px) {
+    font-size: 14px;
+  }
+`;
