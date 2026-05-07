@@ -1,7 +1,7 @@
 //import { ScrollProvider } from "../../content";
 import { Main } from "../secaoMain";
 import { HeaderAll } from "../header";
-import { ExibicaoProje } from "../secao-projetos";
+import PortfolioSections from "../secao-projetos";
 import { SoftSkills } from "../softSkills";
 import { SobreMim } from "../sobreMim";
 import { BoxEmail } from "../boxEmail";
@@ -16,7 +16,7 @@ export const Portifolio = () => {
         <>
             <HeaderAll  />
             <Main  />
-            <ExibicaoProje  />
+            <PortfolioSections  />
             <SoftSkills/>
             <SobreMim  />
             <BoxEmail  />
